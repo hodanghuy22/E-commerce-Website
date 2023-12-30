@@ -1,0 +1,52 @@
+
+*.vsidx
+*.cache
+*.editorconfig
+*.pack
+*.pack.old
+
+
+.vscode/
+
+backend/node_modules
+backend/node_modules/.bin/
+backend/node_modules/.cache/
+backend/node_modules/.cache/.eslintcache
+
+frontend/node_modules
+frontend/node_modules/.bin/
+frontend/node_modules/.cache/
+frontend/node_modules/.cache/.eslintcache
+
+admin-app/admin-app/node_modules
+admin-app/admin-app/node_modules/.bin/
+admin-app/admin-app/node_modules/.cache/
+admin-app/admin-app/node_modules/.cache/.eslintcache
+# dependencies
+backend/.pnp
+backend/.pnp.js
+
+frontend/.pnp
+frontend/.pnp.js
+
+admin-app/admin-app/.pnp
+admin-app/admin-app/.pnp.js
+
+# testing
+backend/coverage
+frontend/coverage
+admin-app/admin-app/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

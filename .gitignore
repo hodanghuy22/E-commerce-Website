@@ -13,10 +13,10 @@ backend/node_modules/.bin/
 backend/node_modules/.cache/
 backend/node_modules/.cache/.eslintcache
 
-frontend/node_modules
-frontend/node_modules/.bin/
-frontend/node_modules/.cache/
-frontend/node_modules/.cache/.eslintcache
+frontend-app/node_modules
+frontend-app/node_modules/.bin/
+frontend-app/node_modules/.cache/
+frontend-app/node_modules/.cache/.eslintcache
 
 admin-app/admin-app/node_modules
 admin-app/admin-app/node_modules/.bin/
@@ -26,15 +26,15 @@ admin-app/admin-app/node_modules/.cache/.eslintcache
 backend/.pnp
 backend/.pnp.js
 
-frontend/.pnp
-frontend/.pnp.js
+frontend-app/.pnp
+frontend-app/.pnp.js
 
 admin-app/admin-app/.pnp
 admin-app/admin-app/.pnp.js
 
 # testing
 backend/coverage
-frontend/coverage
+frontend-app/coverage
 admin-app/admin-app/coverage
 
 # production
